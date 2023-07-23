@@ -1,13 +1,7 @@
 import Counter from "./Counter";
 
 // recoil 관련 코드 import
-import {
-    RecoilRoot,
-    atom,
-    selector,
-    useRecoilState,
-    useRecoilValue,
-} from "recoil";
+import { RecoilRoot } from "recoil";
 import NumberText from "./NumberText";
 
 function App() {
