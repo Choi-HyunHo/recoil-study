@@ -14,10 +14,12 @@ export default function Counter() {
     };
 
     return (
-        <div>
-            <button onClick={() => add()}>+</button>
-            <p>{value}</p>
-            <button onClick={() => minus()}>-</button>
-        </div>
+        <>
+            <div>
+                <button onClick={() => add()}>+</button>
+                <p>{value}</p>
+                <button onClick={() => minus()}>-</button>
+            </div>
+        </>
     );
 }

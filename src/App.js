@@ -3,6 +3,7 @@ import Counter from "./Counter";
 // recoil 관련 코드 import
 import { RecoilRoot } from "recoil";
 import NumberText from "./NumberText";
+import Dog from "./Dog";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
             >
                 <NumberText />
             </div>
+            <Dog breed="pug" />
         </RecoilRoot>
     );
 }
